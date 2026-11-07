@@ -66,3 +66,7 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 /* Teaching uses square viewports; clicking preserves access to each complete source figure. */
 #teaching .record-figure.teaching-figure{padding:0;background:#f5f7fb}
 #teaching .teaching-figure img{object-fit:cover}
+
+/* Email is a plain text link, separate from the social buttons. */
+.email-address{display:inline-flex;align-items:center;align-self:center;gap:10px;color:var(--ink);font-size:18px;line-height:1.5}
+.email-address:hover{text-decoration:underline;text-underline-offset:3px}
