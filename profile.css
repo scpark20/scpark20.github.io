@@ -70,3 +70,14 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 /* Keep the email action and readable address separate. */
 .email-contact{display:inline-flex;align-items:center;flex-wrap:wrap;gap:10px}
 .email-address{color:var(--ink);font-size:18px;line-height:1.5}
+
+/* Teaching: three columns with the existing course content and square thumbnails. */
+#teaching .records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
+#teaching .record.with-thumbnail{display:flex;flex-direction:column;align-items:stretch;gap:14px;padding:28px 0;border-bottom:1px solid var(--line);min-width:0}
+#teaching .record.with-thumbnail .record-figure{order:0;width:100%;height:auto;aspect-ratio:1/1;flex:none}
+#teaching .record.with-thumbnail .record-date{order:1;padding:0;font-size:15px}
+#teaching .record.with-thumbnail .record-body{order:2}
+#teaching .record.with-thumbnail .record-actions{order:3;margin-top:auto;padding-top:5px}
+#teaching .record-title{font-size:21px;line-height:1.5}
+@media(max-width:1000px){#teaching .records{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}}
+@media(max-width:650px){#teaching .records{grid-template-columns:minmax(0,1fr)}}
