@@ -67,9 +67,8 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 #teaching .record-figure.teaching-figure{padding:0;background:#f5f7fb}
 #teaching .teaching-figure img{object-fit:cover}
 
-/* Keep the email action and readable address separate. */
-.email-contact{display:inline-flex;align-items:center;flex-wrap:wrap;gap:10px}
-.email-address{color:var(--ink);font-size:18px;line-height:1.5}
+/* Icon-only email action retains an accessible name. */
+.identity-actions .email-action{width:47px;padding:10px;flex:none}
 
 /* Teaching: three columns with the existing course content and square thumbnails. */
 #teaching .records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
