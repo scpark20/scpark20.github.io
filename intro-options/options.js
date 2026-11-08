@@ -15,7 +15,9 @@ function rich(text,highlights=[],seen=new Set()) {
   for(const match of text.matchAll(regex)) {
     result+=esc(text.slice(last,match.index));
     const name=match[0]==='Soochul Park'||match[0]==='박수철';
-    result+=name?`<strong>${esc(match[0])}</strong>`:seen.has(match[0])?esc(match[0]):`<span class="keyword">${esc(match[0])}</span>`;
+    const href=content.workLinks?.[match[0]];
+    const owned=content.ownedWorkNames?.includes(match[0]);
+    result+=name?`<strong>${esc(match[0])}</strong>`:seen.has(match[0])?esc(match[0]):href?`<a class="work-link" href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(match[0])}</a>`:owned?`<span class="owned-work">${esc(match[0])}</span>`:esc(match[0]);
     seen.add(match[0]);last=match.index+match[0].length;
   }
   return result+esc(text.slice(last));
@@ -64,4 +66,4 @@ document.addEventListener('click',event=>{
   if(button.dataset.pick){state.selected=Number(button.dataset.pick);state.view='single';const fromRecommendation=!!button.closest('.recommendations');render();if(fromRecommendation)document.getElementById('reading').scrollIntoView({behavior:'auto',block:'start'});else document.querySelector(`#options-nav [data-pick="${state.selected}"]`).focus({preventScroll:true});}
 });
 document.addEventListener('change',event=>{const key={'mobile-option':'selected','compare-left':'left','compare-right':'right'}[event.target.id];if(key){state[key]=Number(event.target.value);render();document.getElementById(event.target.id).focus({preventScroll:true});}});
-fetch('content.json?v=5').then(response=>{if(!response.ok)throw new Error('Content unavailable');return response.json();}).then(data=>{content=data;render();}).catch(()=>{document.getElementById('reading').innerHTML=`<p class="error" role="alert">${tr('error')}</p>`;});
+fetch('content.json?v=8').then(response=>{if(!response.ok)throw new Error('Content unavailable');return response.json();}).then(data=>{content=data;render();}).catch(()=>{document.getElementById('reading').innerHTML=`<p class="error" role="alert">${tr('error')}</p>`;});

@@ -84,12 +84,30 @@
       },
       "highlights": {
         "ko": [
-          "생성 모델",
-          "ICLR 2026"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "에브리싱",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "generative models",
-          "ICLR 2026"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "EVERYSING",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -132,37 +150,39 @@
       "paragraphs": {
         "ko": [
           "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.",
-          "이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩의 음악·가사 동기화와 음원 분리, 비브스튜디오스의 TTS·화자 변환, SM Entertainment의 가창 평가와 개인화 TTS를 다뤘습니다. 논문으로는 HCLAS-X, KimchiSpeech, GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.",
-          "이러한 연구 주제는 공개 해설과 강의에서도 다루고 있습니다. YouTube ‘딥러닝을 여행하는 히치하이커를 위한 안내서’(@deep_hitch)에서는 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명하고, 기업의 Stable Diffusion 강의와 교육기관의 AI 교육, 멀티캠퍼스의 생성 모델·베이지안 통계 강의를 진행해 왔습니다. AIfactory에서는 DDPM·DDIM을, AIFrenz와 MODUCON에서는 AI 음악과 음악 생성 모델을 발표했습니다.",
-          "공동 학습 경험으로는 모두의연구소 풀잎스쿨의 Stable Diffusion 3, 음성인식과 음성합성, PRML로 이해하는 베이지안, Deep Generative Models 과정 운영이 있습니다. Rubato Lab에서 음악 생성 모델을 개발했고, GTA Lab의 생성 모델·스타일 전이 연구와 ML Lab의 PRML 스터디에도 참여했습니다.",
+          "이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩에서 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서 VSpeech TTS·화자 변환 통합 모델을 연구했습니다. 그 이전에는 가우디오랩에서 음원 분리 모델과 FOLLE 사운드 생성 모델을, SM Entertainment에서 가창 평가와 개인화 TTS를 개발했습니다. 관련 논문으로는 음악·가사 정렬의 HCLAS-X, 음성 합성의 KimchiSpeech, 음원 분리의 GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다."
         ],
         "en": [
           "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.",
-          "My earlier research spans music and speech: lyrics synchronization and source separation at GAUDIOLAB, TTS and voice conversion at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X, KimchiSpeech and GSEP. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.",
-          "I discuss these research areas through public explanations and teaching. In my YouTube series, The Hitchhiker’s Guide to Deep Learning (@deep_hitch), I explain Flow Matching, ELBO, Diffusion and KL-Divergence. I have taught corporate Stable Diffusion courses, institutional AI programs, and generative modeling and Bayesian statistics at Multicampus. My talks covered DDPM and DDIM at AIfactory, and AI music and music generation models at AIFrenz and MODUCON.",
-          "My collaborative learning experience includes facilitating Stable Diffusion 3, speech recognition and synthesis, Bayesian understanding with PRML, and deep generative models at MODULABS Puliip School. I developed music generation models at Rubato Lab and participated in generative modeling and style transfer research at GTA Lab and the PRML study group at ML Lab.",
+          "My earlier research spans music and speech. At GAUDIOLAB, I worked on GTS for music–lyrics synchronization, and at VIVESTUDIOS, on VSpeech, an integrated TTS and voice conversion model. Earlier, I developed source separation and FOLLE sound generation models at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X for lyrics alignment, KimchiSpeech for speech synthesis, and GSEP for source separation. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.",
           "I studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
         ]
       },
       "highlights": {
         "ko": [
           "Dual-Solver",
+          "RBF-Solver",
           "logp(x)",
+          "GTS",
+          "VSpeech",
+          "FOLLE",
           "HCLAS-X",
           "KimchiSpeech",
           "GSEP",
-          "딥러닝을 여행하는 히치하이커를 위한 안내서",
           "WOBBLE",
           "Earoid"
         ],
         "en": [
           "Dual-Solver",
+          "RBF-Solver",
           "logp(x)",
+          "GTS",
+          "VSpeech",
+          "FOLLE",
           "HCLAS-X",
           "KimchiSpeech",
           "GSEP",
-          "The Hitchhiker’s Guide to Deep Learning",
           "WOBBLE",
           "Earoid"
         ]
@@ -170,9 +190,6 @@
       "sources": [
         "research",
         "industry",
-        "youtube",
-        "teaching",
-        "talks",
         "community",
         "education",
         "patents"
@@ -180,8 +197,6 @@
       "paragraph_order": [
         "current_work",
         "previous_roles",
-        "teaching_and_public_explanations",
-        "community_and_wider_experience",
         "education"
       ]
     },
@@ -221,12 +236,30 @@
       },
       "highlights": {
         "ko": [
-          "음악과 음성 서비스",
-          "VSpeech"
+          "logp(x)",
+          "Dual-Solver",
+          "RBF-Solver",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "에브리싱",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "music and speech products",
-          "VSpeech"
+          "logp(x)",
+          "Dual-Solver",
+          "RBF-Solver",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "EVERYSING",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -283,12 +316,20 @@
       },
       "highlights": {
         "ko": [
-          "작곡",
-          "이미지·오디오 생성 모델"
+          "logp(x)",
+          "Dual-Solver",
+          "RBF-Solver",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "Music Composition",
-          "image and audio generation"
+          "logp(x)",
+          "Dual-Solver",
+          "RBF-Solver",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -345,12 +386,32 @@
       },
       "highlights": {
         "ko": [
-          "음원 분리",
-          "음성 합성"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "HCLAS-X",
+          "KimchiSpeech",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "source separation",
-          "speech synthesis"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "HCLAS-X",
+          "KimchiSpeech",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -407,12 +468,22 @@
       },
       "highlights": {
         "ko": [
-          "오디오 DSP",
-          "디퓨전 샘플링"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "VSpeech",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "audio DSP",
-          "diffusion sampling"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "VSpeech",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -469,11 +540,25 @@
       "highlights": {
         "ko": [
           "logp(x)",
-          "커뮤니티"
+          "Dual-Solver",
+          "RBF-Solver",
+          "HCLAS-X",
+          "KimchiSpeech",
+          "GSEP",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
           "logp(x)",
-          "community"
+          "Dual-Solver",
+          "RBF-Solver",
+          "HCLAS-X",
+          "KimchiSpeech",
+          "GSEP",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -532,11 +617,19 @@
       "highlights": {
         "ko": [
           "logp(x)",
-          "생성 모델"
+          "Dual-Solver",
+          "RBF-Solver",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
           "logp(x)",
-          "generative models"
+          "Dual-Solver",
+          "RBF-Solver",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -592,12 +685,30 @@
       },
       "highlights": {
         "ko": [
-          "버츄얼 휴먼",
-          "이미지·오디오 생성 모델"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "에브리싱",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "virtual-human",
-          "image and audio generation"
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "GTS",
+          "VSpeech",
+          "GSEP",
+          "FOLLE",
+          "EVERYSING",
+          "@deep_hitch",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -654,12 +765,20 @@
       },
       "highlights": {
         "ko": [
-          "YouTube",
-          "생성 모델"
+          "@deep_hitch",
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "WOBBLE",
+          "Earoid"
         ],
         "en": [
-          "YouTube",
-          "generative models"
+          "@deep_hitch",
+          "Dual-Solver",
+          "RBF-Solver",
+          "logp(x)",
+          "WOBBLE",
+          "Earoid"
         ]
       },
       "sources": [
@@ -681,8 +800,8 @@
     }
   ],
   "original": {
-    "ko": "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.\n\n이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩의 음악·가사 동기화와 음원 분리, 비브스튜디오스의 TTS·화자 변환, SM Entertainment의 가창 평가와 개인화 TTS를 다뤘습니다. 논문으로는 HCLAS-X, KimchiSpeech, GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.\n\n이러한 연구 주제는 공개 해설과 강의에서도 다루고 있습니다. YouTube ‘딥러닝을 여행하는 히치하이커를 위한 안내서’(@deep_hitch)에서는 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명하고, 기업의 Stable Diffusion 강의와 교육기관의 AI 교육, 멀티캠퍼스의 생성 모델·베이지안 통계 강의를 진행해 왔습니다. AIfactory에서는 DDPM·DDIM을, AIFrenz와 MODUCON에서는 AI 음악과 음악 생성 모델을 발표했습니다.\n\n공동 학습 경험으로는 모두의연구소 풀잎스쿨의 Stable Diffusion 3, 음성인식과 음성합성, PRML로 이해하는 베이지안, Deep Generative Models 과정 운영이 있습니다. Rubato Lab에서 음악 생성 모델을 개발했고, GTA Lab의 생성 모델·스타일 전이 연구와 ML Lab의 PRML 스터디에도 참여했습니다.\n\n서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다.",
-    "en": "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.\n\nMy earlier research spans music and speech: lyrics synchronization and source separation at GAUDIOLAB, TTS and voice conversion at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X, KimchiSpeech and GSEP. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.\n\nI discuss these research areas through public explanations and teaching. In my YouTube series, The Hitchhiker’s Guide to Deep Learning (@deep_hitch), I explain Flow Matching, ELBO, Diffusion and KL-Divergence. I have taught corporate Stable Diffusion courses, institutional AI programs, and generative modeling and Bayesian statistics at Multicampus. My talks covered DDPM and DDIM at AIfactory, and AI music and music generation models at AIFrenz and MODUCON.\n\nMy collaborative learning experience includes facilitating Stable Diffusion 3, speech recognition and synthesis, Bayesian understanding with PRML, and deep generative models at MODULABS Puliip School. I developed music generation models at Rubato Lab and participated in generative modeling and style transfer research at GTA Lab and the PRML study group at ML Lab.\n\nI studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
+    "ko": "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.\n\n이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩에서 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서 VSpeech TTS·화자 변환 통합 모델을 연구했습니다. 그 이전에는 가우디오랩에서 음원 분리 모델과 FOLLE 사운드 생성 모델을, SM Entertainment에서 가창 평가와 개인화 TTS를 개발했습니다. 관련 논문으로는 음악·가사 정렬의 HCLAS-X, 음성 합성의 KimchiSpeech, 음원 분리의 GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.\n\n서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다.",
+    "en": "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.\n\nMy earlier research spans music and speech. At GAUDIOLAB, I worked on GTS for music–lyrics synchronization, and at VIVESTUDIOS, on VSpeech, an integrated TTS and voice conversion model. Earlier, I developed source separation and FOLLE sound generation models at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X for lyrics alignment, KimchiSpeech for speech synthesis, and GSEP for source separation. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.\n\nI studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
   },
   "narrative_order": {
     "ko": [
@@ -698,5 +817,45 @@
       "Education"
     ]
   },
-  "selectedOption": 2
+  "selectedOption": 2,
+  "workLinks": {
+    "Dual-Solver": "https://arxiv.org/abs/2603.03973",
+    "RBF-Solver": "https://arxiv.org/abs/2603.13330",
+    "HCLAS-X": "https://arxiv.org/abs/2307.04377",
+    "KimchiSpeech": "https://github.com/scpark20/KimchiSpeech/blob/gh-pages/kimchispeech.pdf",
+    "GSEP": "https://arxiv.org/abs/2010.12139",
+    "GTS": "https://www.gaudiolab.com/products/ai-text-sync",
+    "logp(x)": "https://modulabs.co.kr/labs/265",
+    "WOBBLE": "https://soundcloud.com/hutenheum/wobble",
+    "Earoid": "https://github.com/scpark20/earoid-app",
+    "The Musician": "https://www.youtube.com/watch?v=iTbiLMg-QiY",
+    "더뮤지션": "https://www.youtube.com/watch?v=iTbiLMg-QiY",
+    "딥러닝을 여행하는 히치하이커를 위한 안내서": "https://www.youtube.com/@deep_hitch",
+    "The Hitchhiker’s Guide to Deep Learning": "https://www.youtube.com/@deep_hitch",
+    "@deep_hitch": "https://www.youtube.com/@deep_hitch"
+  },
+  "ownedWorkNames": [
+    "@deep_hitch",
+    "DingaRadio",
+    "DingaStar",
+    "Dual-Solver",
+    "EVERYSING",
+    "Earoid",
+    "FOLLE",
+    "GSEP",
+    "GTS",
+    "HCLAS-X",
+    "KimchiSpeech",
+    "RBF-Solver",
+    "The Hitchhiker’s Guide to Deep Learning",
+    "The Musician",
+    "VSpeech",
+    "WOBBLE",
+    "logp(x)",
+    "더뮤지션",
+    "딥러닝을 여행하는 히치하이커를 위한 안내서",
+    "딩가라디오",
+    "딩가스타",
+    "에브리싱"
+  ]
 }

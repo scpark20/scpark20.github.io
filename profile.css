@@ -46,8 +46,10 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 
 .audio-embed{width:100%;max-width:600px;height:166px;margin-top:18px}.audio-embed iframe{display:block;width:100%;height:100%;border:0;border-radius:var(--radius)}
 
-.keyword{color:#93385b;font-weight:650}
-.keyword-red{color:#c62828}
+.keyword,.keyword-red{color:inherit;font-weight:inherit}
+.owned-work{color:inherit;font-weight:600}
+a.work-link[href]{color:#93385b;font-weight:600;text-decoration:underline;text-decoration-color:#93385b66;text-underline-offset:3px;text-decoration-thickness:1px}
+a.work-link[href]:hover{text-decoration-color:currentColor}
 
 /* Sidebar navigation, shared media grid, and original-image orientation. */
 .profile-layout{display:grid;grid-template-columns:170px minmax(0,1fr);gap:48px;max-width:1280px}.profile-content{min-width:0}.section-nav{position:sticky;top:32px;align-self:start;display:flex;flex-direction:column;gap:3px;margin:0;padding:0 0 0 2px;border:0}.section-link{justify-content:flex-start;min-height:46px;padding:9px 16px;border:0;border-left:2px solid transparent;border-radius:0!important;background:transparent;font-size:17px;color:var(--muted)}.section-link:hover,.section-link[aria-current=true]{border-color:var(--accent);background:transparent;color:var(--accent)}.section-link[aria-current=true]{font-weight:650}.interests{display:flex;flex-wrap:wrap;gap:9px 10px;max-width:none}.interest-tag{display:inline-block;padding:4px 12px;border:1px solid var(--line);border-radius:20px;color:var(--accent);background:var(--soft);font-size:16px;line-height:1.7}.record.video-record{display:flex;flex-direction:column;align-items:stretch}.video-record .record-body{height:auto;flex:1}.video-record .record-date{margin-bottom:12px}.video-record .record-actions{margin-top:18px}.video-record .video-embed{margin-top:auto;padding-top:0}.video-record .record-meta{margin-bottom:20px}.video-record .record-title{min-height:69px;margin-bottom:18px}.video-record .record-title+.record-meta{margin-top:0}.record-figure .rotate-cw{transform:rotate(90deg)}.image-dialog-content{position:relative;display:block;margin:auto}.image-dialog-content img{position:absolute;left:50%;top:50%;max-width:none;max-height:none;object-fit:contain;transform:translate(-50%,-50%)}
@@ -82,9 +84,10 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 @media(max-width:1000px){#teaching .records{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}}
 @media(max-width:650px){#teaching .records{grid-template-columns:minmax(0,1fr)}}
 
-/* The selected five-paragraph biography keeps the photo beside its opening. */
-.introduction .bio-text{display:contents}
-.introduction .bio-text>p{grid-column:1/-1}
-.introduction .bio-text>p:first-child{grid-column:1;grid-row:1}
-.introduction .interests{grid-row:auto}
-@media(max-width:650px){.introduction .bio-text>p:first-child{grid-row:2}}
+/* Prose flows beside the square portrait and continues below it. */
+.introduction{display:flow-root}
+.introduction .profile-photo{float:right;margin:0 0 18px 32px}
+.introduction .bio-text{display:block;max-width:none}
+.introduction .bio-text>p+p{margin-top:20px}
+.introduction .interests{clear:both;margin-top:26px}
+@media(max-width:650px){.introduction .profile-photo{float:none;margin:0 0 24px auto}}
