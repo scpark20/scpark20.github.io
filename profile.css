@@ -81,3 +81,10 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 #teaching .record-title{font-size:21px;line-height:1.5}
 @media(max-width:1000px){#teaching .records{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 24px}}
 @media(max-width:650px){#teaching .records{grid-template-columns:minmax(0,1fr)}}
+
+/* The selected five-paragraph biography keeps the photo beside its opening. */
+.introduction .bio-text{display:contents}
+.introduction .bio-text>p{grid-column:1/-1}
+.introduction .bio-text>p:first-child{grid-column:1;grid-row:1}
+.introduction .interests{grid-row:auto}
+@media(max-width:650px){.introduction .bio-text>p:first-child{grid-row:2}}
