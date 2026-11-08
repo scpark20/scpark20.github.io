@@ -1,4 +1,4 @@
-:root{--bg:#fff;--panel:#fff;--ink:#202830;--muted:#52606d;--line:#dde3e9;--accent:#315e9b;--soft:#edf3fa;--radius:6px;--font:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Arial,sans-serif;--display:var(--font);--mono:'SFMono-Regular',Consolas,monospace;--width:1000px}
+:root{--work-link:#93385b;--work-link-line:#93385b66;--bg:#fff;--panel:#fff;--ink:#202830;--muted:#52606d;--line:#dde3e9;--accent:#315e9b;--soft:#edf3fa;--radius:6px;--font:-apple-system,BlinkMacSystemFont,'Segoe UI','Apple SD Gothic Neo','Malgun Gothic',Arial,sans-serif;--display:var(--font);--mono:'SFMono-Regular',Consolas,monospace;--width:1000px}
 *{box-sizing:border-box}html{scroll-padding-top:0;scroll-behavior:auto}body{margin:0;background:var(--bg);color:var(--ink);font:18px/1.75 var(--font);-webkit-font-smoothing:antialiased}button{font:inherit;cursor:pointer}a{color:inherit;text-decoration:none}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}h1,h2,h3,p{margin:0}h1,h2,h3{line-height:1.4}::selection{background:var(--soft);color:var(--ink)}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}.skip{position:absolute;left:20px;top:-100px;z-index:300;background:var(--panel);padding:10px 20px;border:1px solid var(--accent)}.skip:focus{top:8px}
 
 
@@ -48,7 +48,7 @@ html[lang=ko] body{word-break:keep-all;overflow-wrap:break-word}html[lang=ko] .i
 
 .keyword,.keyword-red{color:inherit;font-weight:inherit}
 .owned-work{color:inherit;font-weight:600}
-a.work-link[href]{color:#93385b;font-weight:600;text-decoration:underline;text-decoration-color:#93385b66;text-underline-offset:3px;text-decoration-thickness:1px}
+a.work-link[href]{color:var(--work-link);font-weight:600;text-decoration:underline;text-decoration-color:var(--work-link-line);text-underline-offset:3px;text-decoration-thickness:1px}
 a.work-link[href]:hover{text-decoration-color:currentColor}
 
 /* Sidebar navigation, shared media grid, and original-image orientation. */
@@ -94,3 +94,15 @@ a.work-link[href]:hover{text-decoration-color:currentColor}
 
 /* Course thumbnails open the corresponding course repository. */
 .thumbnail-link{display:block;width:100%;height:100%}.thumbnail-link:hover{opacity:.86}
+
+/* Ten accessible link colors, chosen and remembered in this browser. */
+.link-color-picker{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.link-color-picker summary{width:max-content;font-size:16px;font-weight:600;color:var(--muted);cursor:pointer}
+.link-color-options{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:14px}
+.link-color-option{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink);font:500 16px/1.4 var(--font);text-align:left}
+.link-color-option:hover{background:var(--soft)}
+.link-color-option[aria-pressed=true]{border-color:var(--work-link);box-shadow:inset 0 0 0 1px var(--work-link);background:var(--soft)}
+.color-swatch{width:17px;height:17px;border-radius:50%;flex:0 0 17px}
+@media(max-width:1100px){.link-color-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:650px){.link-color-options{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media print{.link-color-picker{display:none!important}}

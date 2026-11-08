@@ -8,6 +8,25 @@
     history.replaceState(null, '', url);
   }
   const languages = [...document.querySelectorAll('[data-language]')];
+
+  const colorButtons = [...document.querySelectorAll('[data-link-color]')];
+  const colorStorageKey = 'soochul-homepage-link-color';
+  function setLinkColor(color, remember = true, announce = true) {
+    const selected = colorButtons.find(button => button.dataset.linkColor === color);
+    if (!selected) return;
+    root.style.setProperty('--work-link', color);
+    root.style.setProperty('--work-link-line', `${color}66`);
+    colorButtons.forEach(button => button.setAttribute('aria-pressed', String(button === selected)));
+    if (remember) {
+      try { localStorage.setItem(colorStorageKey, color); } catch (_) {}
+    }
+    if (announce) {
+      const label = selected.querySelector('[data-en]').dataset[root.lang === 'ko' ? 'ko' : 'en'];
+      document.getElementById('status').textContent = root.lang === 'ko' ? `${label} 링크 색상을 선택했습니다.` : `Link color changed to ${label}.`;
+    }
+  }
+  colorButtons.forEach(button => button.addEventListener('click', () => setLinkColor(button.dataset.linkColor)));
+  try { setLinkColor(localStorage.getItem(colorStorageKey), false, false); } catch (_) {}
   function setLanguage(value, announce = true) {
     const lang = value === 'ko' ? 'ko' : 'en';
     root.lang = lang;
