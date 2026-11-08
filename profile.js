@@ -9,14 +9,6 @@
   }
   const languages = [...document.querySelectorAll('[data-language]')];
 
-  // Preserve the shade already chosen in this browser after removing the controls.
-  try {
-    const savedColor = localStorage.getItem('soochul-homepage-link-color');
-    if (/^#[0-9a-f]{6}$/i.test(savedColor || '')) {
-      root.style.setProperty('--work-link', savedColor);
-      root.style.setProperty('--work-link-line', `${savedColor}66`);
-    }
-  } catch (_) {}
   function setLanguage(value, announce = true) {
     const lang = value === 'ko' ? 'ko' : 'en';
     root.lang = lang;
