@@ -91,3 +91,6 @@ a.work-link[href]:hover{text-decoration-color:currentColor}
 .introduction .bio-text>p+p{margin-top:20px}
 .introduction .interests{clear:both;margin-top:26px}
 @media(max-width:650px){.introduction .profile-photo{float:none;margin:0 0 24px auto}}
+
+/* Course thumbnails open the corresponding course repository. */
+.thumbnail-link{display:block;width:100%;height:100%}.thumbnail-link:hover{opacity:.86}
