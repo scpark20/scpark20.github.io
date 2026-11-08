@@ -110,3 +110,6 @@ a.work-link[href]:hover{text-decoration-color:currentColor}
 #talks .talk-slides{display:block;width:100%;height:100%;background:#fff}
 #talks .talk-slides img{display:block;width:100%;height:100%;object-fit:contain}
 #talks .talk-slides:hover img{opacity:.9}
+
+/* Compact playlist player for the public music-generation project. */
+#github .audio-embed{height:300px}
