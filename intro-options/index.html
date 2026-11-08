@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#315e9b">
+  <title>소개문 10가지 제안 · Soochul Park</title>
+  <link rel="stylesheet" href="options.css?v=1">
+  <script src="options.js?v=1" defer></script>
+</head>
+<body>
+  <a class="skip" href="#reading">소개문으로 이동</a>
+  <div class="page">
+    <header class="masthead">
+      <a class="home-link" href="../" target="_blank" rel="noopener noreferrer"><strong>Soochul Park</strong><span data-i18n="homepage">홈페이지 ↗</span></a>
+      <div class="languages" aria-label="Language"><button type="button" data-lang="ko" aria-pressed="true">KO</button><button type="button" data-lang="en" aria-pressed="false">EN</button></div>
+    </header>
+    <div class="heading">
+      <p class="eyebrow" data-i18n="eyebrow">BIOGRAPHY EXPLORER</p>
+      <h1 data-i18n="heading">같은 이력, 열 가지 소개.</h1>
+      <p class="lead" data-i18n="lead">연구, 산업 경험, 음악, 교육. 강조점을 달리한 소개문을 비교해 보세요.</p>
+    </div>
+    <section class="recommendations" aria-labelledby="recommendation-heading">
+      <h2 id="recommendation-heading" data-i18n="recommendations">먼저 읽어 볼 추천안</h2>
+      <div class="recommendation-links">
+        <button type="button" data-pick="1"><span class="option-number">1</span><span data-i18n="rec1">홈페이지 기본 소개</span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-pick="2"><span class="option-number">2</span><span data-i18n="rec2">연구직·연구 협업</span><span aria-hidden="true">↗</span></button>
+        <button type="button" data-pick="9"><span class="option-number">9</span><span data-i18n="rec9">게임·콘텐츠 AI</span><span aria-hidden="true">↗</span></button>
+      </div>
+    </section>
+    <div class="view-bar">
+      <div class="view-switch" role="group" aria-label="View">
+        <button type="button" data-view="single" aria-pressed="true" data-i18n="single">한 안씩 보기</button>
+        <button type="button" data-view="compare" aria-pressed="false" data-i18n="compare">나란히 비교</button>
+        <button type="button" data-view="all" aria-pressed="false" data-i18n="all">전체 10안</button>
+      </div>
+      <p data-i18n="draftNote">비교용 초안 · 현재 소개문은 유지됩니다.</p>
+    </div>
+    <main id="reading" tabindex="-1">
+      <div id="single-view" class="single-layout">
+        <nav id="options-nav" class="options-nav" aria-label="소개문 선택"></nav>
+        <label class="mobile-picker"><span data-i18n="selectVersion">소개문 선택</span><select id="mobile-option"></select></label>
+        <div id="selected-option"></div>
+      </div>
+      <div id="compare-view" hidden>
+        <div class="compare-controls"><label><span data-i18n="leftVersion">왼쪽 소개문</span><select id="compare-left"></select></label><label><span data-i18n="rightVersion">오른쪽 소개문</span><select id="compare-right"></select></label></div>
+        <div id="comparison" class="comparison"></div>
+      </div>
+      <div id="all-view" class="all-options" hidden></div>
+    </main>
+    <details class="original">
+      <summary data-i18n="original">현재 홈페이지 소개문 보기</summary>
+      <p id="original-text"></p>
+    </details>
+    <footer><strong>Soochul Park</strong><p data-i18n="footer">제공된 이력과 현재 홈페이지 내용을 바탕으로 작성한 소개문 제안입니다.</p></footer>
+  </div>
+  <div id="status" class="status" role="status" aria-live="polite"></div>
+  <noscript><p>소개문 비교에는 JavaScript가 필요합니다. <a href="content.json">10개 소개문 원문 보기</a></p></noscript>
+</body>
+</html>
