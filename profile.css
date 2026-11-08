@@ -70,9 +70,6 @@ a.work-link[href]:hover{text-decoration-color:currentColor}
 #teaching .record-figure.teaching-figure{padding:0;background:#f5f7fb}
 #teaching .teaching-figure img{object-fit:cover}
 
-/* Icon-only email action retains an accessible name. */
-.identity-actions .email-action{width:47px;padding:10px;flex:none}
-
 /* Teaching: three columns with the existing course content and square thumbnails. */
 #teaching .records{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:0 28px}
 #teaching .record.with-thumbnail{display:flex;flex-direction:column;align-items:stretch;gap:14px;padding:28px 0;border-bottom:1px solid var(--line);min-width:0}
@@ -94,24 +91,3 @@ a.work-link[href]:hover{text-decoration-color:currentColor}
 
 /* Course thumbnails open the corresponding course repository. */
 .thumbnail-link{display:block;width:100%;height:100%}.thumbnail-link:hover{opacity:.86}
-
-/* Ten accessible link colors, chosen and remembered in this browser. */
-.link-color-picker{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
-.link-color-picker summary{width:max-content;font-size:16px;font-weight:600;color:var(--muted);cursor:pointer}
-.link-color-options{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:9px;margin-top:14px}
-.link-color-option{display:flex;align-items:center;justify-content:flex-start;gap:9px;min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink);font:500 16px/1.4 var(--font);text-align:left}
-.link-color-option:hover{background:var(--soft)}
-.link-color-option[aria-pressed=true]{border-color:var(--work-link);box-shadow:inset 0 0 0 1px var(--work-link);background:var(--soft)}
-.color-swatch{width:17px;height:17px;border-radius:50%;flex:0 0 17px}
-.link-color-adjustments{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) auto;align-items:center;gap:24px;margin-top:20px}
-.link-color-control{min-width:0;font-size:16px;font-weight:500}
-.link-color-control-label{display:flex;justify-content:space-between;gap:12px}
-.link-color-control output{color:var(--muted);font-variant-numeric:tabular-nums}
-.link-color-control input{display:block;width:100%;height:32px;margin:4px 0 0;accent-color:var(--work-link);cursor:pointer}
-.link-color-control input:focus-visible{outline:2px solid var(--work-link);outline-offset:3px;border-radius:4px}
-.link-color-reset{min-height:44px;padding:9px 12px;border:1px solid var(--line);border-radius:5px;background:var(--panel);color:var(--ink);font:500 16px/1.4 var(--font)}
-.link-color-reset:hover{background:var(--soft)}
-@media(max-width:650px){.link-color-adjustments{grid-template-columns:minmax(0,1fr);gap:12px}.link-color-reset{justify-self:start}}
-@media(max-width:1100px){.link-color-options{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:650px){.link-color-options{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media print{.link-color-picker{display:none!important}}
