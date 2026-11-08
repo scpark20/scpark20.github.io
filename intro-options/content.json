@@ -58,14 +58,16 @@
       },
       "paragraphs": {
         "ko": [
-          "이미지와 오디오를 생성하는 인공지능 모델을 연구합니다. 서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했으며, 음악·음성·소프트웨어 개발 경험을 바탕으로 생성 모델 연구를 이어가고 있습니다.",
-          "가우디오랩에서 음원 분리와 음악·가사 동기화 모델을 개발했고, 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델인 VSpeech를 연구했습니다. 현재는 SteAI에서 독립 연구자로 활동하며, Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 모델의 샘플링 속도와 품질을 연구합니다.",
-          "모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하며, 기업·교육기관 강의와 공개 발표를 통해 연구와 개발 경험을 공유하고 있습니다."
+          "현재 SteAI에서 독립 연구자로 활동하며 이미지와 오디오를 생성하는 인공지능 모델을 연구합니다. Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 모델의 샘플링 속도와 품질을 연구하고, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "이전에는 가우디오랩에서 음원 분리와 음악·가사 동기화 모델을 개발했고, 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델인 VSpeech를 연구했습니다. SM Entertainment에서는 에브리싱의 가창 평가 모듈과 셀러브리티 개인화 TTS를 개발했습니다.",
+          "음악·음성 모델뿐 아니라 Android 앱과 오디오 DSP를 개발한 경험이 있으며, 기업·교육기관 강의와 공개 발표를 통해 연구와 개발 경험을 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I research generative models for images and audio. I studied Music Composition with a double major in Computer Science at Seoul National University, and my work brings together experience in music, speech and software development.",
-          "At GAUDIOLAB, I developed models for music source separation and music–lyrics synchronization. At VIVESTUDIOS, I worked on VSpeech, an integrated TTS and voice conversion model for virtual humans. I now work as an independent researcher at SteAI, studying diffusion sampling speed and quality through Dual-Solver, published at ICLR 2026, and RBF-Solver.",
-          "I also lead the logp(x) generative models research lab at MODULABS and share my research and development experience through corporate training, courses and public talks."
+          "I currently work as an independent researcher at SteAI, researching generative models for images and audio. My work on Dual-Solver, published at ICLR 2026, and RBF-Solver focuses on diffusion sampling speed and quality. I also lead the logp(x) generative models research lab at MODULABS.",
+          "Previously, I developed models for music source separation and music–lyrics synchronization at GAUDIOLAB. At VIVESTUDIOS, I worked on VSpeech, an integrated TTS and voice conversion model for virtual humans. At SM Entertainment, I developed a singing assessment module for EVERYSING and worked on personalized celebrity TTS.",
+          "My experience also includes Android applications and audio DSP. I have shared my research and development experience through corporate training, courses and public talks.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -84,6 +86,12 @@
         "education",
         "teaching",
         "community"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -106,14 +114,16 @@
       },
       "paragraphs": {
         "ko": [
-          "디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. ICLR 2026 논문 Dual-Solver에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다.",
+          "현재 SteAI에서 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. ICLR 2026 논문 Dual-Solver에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소에서는 생성 모델의 핵심 원리를 연구하는 logp(x) 랩을 운영하고 있습니다.",
           "이전에는 가우디오랩과 비브스튜디오스 등에서 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환 모델을 개발했습니다. GSEP, HCLAS-X, KimchiSpeech 연구는 이러한 오디오·음성 분야의 경험과 연결되어 있습니다.",
-          "현재 SteAI에서 연구를 이어가며, 모두의연구소의 logp(x) 랩에서 생성 모델의 핵심 원리를 함께 공부하고 연구합니다. Stable Diffusion, 생성 모델, 베이지안 통계에 관한 강의도 진행해 왔습니다."
+          "Stable Diffusion, 생성 모델, 베이지안 통계에 관한 강의를 진행해 왔으며, 생성 모델 스터디 운영과 공개 발표를 통해 연구 내용을 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation.",
+          "I am currently an independent researcher at SteAI working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.",
           "Previously, I developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion at companies including GAUDIOLAB and VIVESTUDIOS. My work on GSEP, HCLAS-X and KimchiSpeech connects with this background in audio and speech.",
-          "I continue my research at SteAI and lead logp(x) at MODULABS, where we study the core principles of generative models. I have also taught courses on Stable Diffusion, generative models and Bayesian statistics."
+          "I have taught courses on Stable Diffusion, generative models and Bayesian statistics, and shared research through generative modeling study groups and public talks.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -130,7 +140,14 @@
         "research",
         "industry",
         "community",
-        "teaching"
+        "teaching",
+        "education"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -148,19 +165,21 @@
         "en": "Introductions to industry R&D teams"
       },
       "reason": {
-        "ko": "논문보다 먼저 실제 담당한 모델과 기능을 보여 줍니다. 어떤 제품 문제를 다뤘는지 빠르게 설명할 수 있습니다.",
-        "en": "Shows the models and product functions you worked on before introducing your papers. Useful when the reader wants to understand your applied experience."
+        "ko": "현재 연구를 소개한 뒤 실제 담당한 모델과 제품 기능을 구체적으로 보여 줍니다. 산업 현장에서 어떤 문제를 다뤘는지 설명하기에 적합합니다.",
+        "en": "Introduces your current research, then details the models and product functions you worked on. Useful for explaining the practical problems you have addressed in industry."
       },
       "paragraphs": {
         "ko": [
-          "음악과 음성 서비스에 필요한 AI 모델을 연구·개발해 왔습니다. 가우디오랩에서는 GSEP 음원 분리, GTS 음악·가사 동기화, FOLLE 사운드 생성 모델을 개발했습니다. GTS에서는 노래방 데이터 제작을 위한 음악·가사 동기화와 더 정확한 시간 맞춤을 위한 모델 고도화 작업을 수행했습니다.",
-          "비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델인 VSpeech를, SM Entertainment에서는 에브리싱의 가창 평가 모듈과 셀러브리티 개인화 TTS를 개발했습니다. Android 앱과 오디오 DSP 개발 경험도 갖고 있습니다.",
-          "현재는 이러한 경험을 바탕으로 이미지·오디오 생성 모델을 연구합니다. SteAI에서 Dual-Solver와 RBF-Solver의 샘플링 연구를 이어가며, 모두의연구소 랩 운영과 기업 강의를 병행하고 있습니다."
+          "현재 SteAI에서 독립 연구자로 활동하며, 음악과 음성 서비스의 모델 개발 경험을 바탕으로 이미지·오디오 생성 모델을 연구하고 있습니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영합니다.",
+          "가우디오랩에서는 GTS 음악·가사 동기화 모델을 개발하고, 노래방 데이터 제작과 더 정확한 시간 맞춤을 위한 모델 고도화 작업을 수행했습니다. 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델인 VSpeech를 연구했습니다. 그 이전에는 가우디오랩의 GSEP 음원 분리·FOLLE 사운드 생성 모델과 SM Entertainment의 에브리싱 가창 평가·셀러브리티 개인화 TTS를 개발했습니다.",
+          "Android 앱과 오디오 DSP 개발 경험도 갖고 있습니다. 기업·교육기관에서는 Stable Diffusion, 생성 모델, 베이지안 통계, 오디오 처리에 관한 강의를 진행해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I have developed AI models for music and speech products. At GAUDIOLAB, my work included GSEP for source separation, GTS for music–lyrics synchronization and FOLLE for sound generation. My work on GTS included preparing synchronized music and lyrics for karaoke data and refining the model for more precise timing.",
-          "At VIVESTUDIOS, I worked on VSpeech, an integrated TTS and voice conversion model for virtual humans. At SM Entertainment, I developed a singing assessment module for EVERYSING and worked on personalized celebrity TTS. My background also includes Android applications and audio DSP.",
-          "I now research image and audio generation at SteAI, including diffusion sampling through Dual-Solver and RBF-Solver, alongside leading a MODULABS research lab and teaching corporate courses."
+          "I currently work as an independent researcher at SteAI, researching image and audio generation with a background in developing models for music and speech products. I also lead the logp(x) generative models research lab at MODULABS.",
+          "At GAUDIOLAB, I developed GTS for music–lyrics synchronization, including preparing karaoke data and refining the model for more precise timing. At VIVESTUDIOS, I worked on VSpeech, an integrated TTS and voice conversion model for virtual humans. Earlier, my work included GSEP for source separation and FOLLE for sound generation at GAUDIOLAB, and singing assessment for EVERYSING and personalized celebrity TTS at SM Entertainment.",
+          "My experience also includes Android applications and audio DSP. I have taught corporate and institutional courses on Stable Diffusion, generative models, Bayesian statistics and audio processing.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -177,7 +196,14 @@
         "industry",
         "research",
         "teaching",
-        "community"
+        "community",
+        "education"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -195,19 +221,21 @@
         "en": "A personal profile or interdisciplinary introduction"
       },
       "reason": {
-        "ko": "작곡 전공과 창작 이력을 중심에 둡니다. 다른 AI 연구자와 구별되는 배경을 자연스럽게 보여 주는 안입니다.",
-        "en": "Centers your composition background and creative work, making the distinctive combination behind your AI career easier to understand."
+        "ko": "현재 연구에서 출발해 산업 경험, 음악·소프트웨어 프로젝트, 학력으로 이어집니다. 작곡과 공학을 함께 다뤄 온 배경을 구체적인 경험으로 보여 줍니다.",
+        "en": "Moves from current research through industry experience and music/software projects to education. Concrete examples show the combination of composition and computing in your background."
       },
       "paragraphs": {
         "ko": [
-          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 작곡 졸업 작품으로 인터랙티브 음악 WOBBLE을, 컴퓨터공학 졸업 프로젝트로 청음 훈련 Android 앱 Earoid를 제작했습니다. 동아음악콩쿠르 작곡부문 2위와 음악춘추콩쿠르 작곡부문 1위 수상 이력도 있습니다.",
-          "이후 음악 게임의 오디오 출력 모듈, 노래방 앱의 가창 평가, 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환 모델을 개발해 왔습니다. 음악을 다룬 경험과 소프트웨어 개발 경험은 현재의 이미지·오디오 생성 모델 연구로 이어지고 있습니다.",
-          "현재 SteAI에서 독립 연구자로 활동하며 Dual-Solver와 RBF-Solver를 연구하고 있습니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영하고, 강의와 공개 발표를 통해 연구 내용을 공유합니다."
+          "현재 SteAI에서 독립 연구자로 활동하며 이미지·오디오 생성 모델을 연구합니다. Dual-Solver와 RBF-Solver를 연구하고, 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "이전에는 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환 모델을 개발했습니다. 그에 앞서 노래방 앱의 가창 평가와 음악 게임의 오디오 출력 모듈을 개발하며 음악과 소프트웨어를 함께 다뤄 왔습니다.",
+          "연구·개발 경험은 강의와 공개 발표를 통해 공유해 왔습니다. 창작 활동으로는 인터랙티브 음악 WOBBLE과 청음 훈련 Android 앱 Earoid를 제작했으며, 동아음악콩쿠르 작곡부문 2위와 음악춘추콩쿠르 작곡부문 1위를 수상했습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. WOBBLE은 작곡 졸업 작품, Earoid는 컴퓨터공학 졸업 프로젝트입니다."
         ],
         "en": [
-          "I studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects were WOBBLE, an interactive music work, and Earoid, an Android ear-training application. I also received second prize in composition at the Dong-A Music Competition and first prize at the Music Chunchu Competition.",
-          "My subsequent work has included audio output for music games, singing assessment for karaoke applications, source separation, music–lyrics synchronization, speech synthesis and voice conversion. These experiences in music and software development now inform my research on image and audio generation.",
-          "I work as an independent researcher at SteAI on projects including Dual-Solver and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS and share my work through courses and public talks."
+          "I currently work as an independent researcher at SteAI, researching image and audio generation through projects including Dual-Solver and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS.",
+          "Previously, I developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion. Earlier work on singing assessment for karaoke applications and audio output for music games brought together music and software development.",
+          "I have shared my research and development experience through courses and public talks. My creative work includes WOBBLE, an interactive music work, and Earoid, an Android ear-training application. I received second prize in composition at the Dong-A Music Competition and first prize at the Music Chunchu Competition.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University. WOBBLE was my composition graduation work, and Earoid was my computer science capstone project."
         ]
       },
       "highlights": {
@@ -226,6 +254,12 @@
         "industry",
         "research",
         "community"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -248,14 +282,16 @@
       },
       "paragraphs": {
         "ko": [
-          "음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환을 연구·개발해 왔습니다. 가우디오랩의 GSEP·GTS·FOLLE, 비브스튜디오스의 VSpeech, SM Entertainment의 가창 평가와 개인화 TTS 프로젝트에 참여했습니다.",
-          "연구 논문으로는 음원 분리 시스템 GSEP, 음악·가사 정렬 시스템 HCLAS-X, 음성 합성 모델 KimchiSpeech가 있습니다. 음성 생성, 타겟 음성 추출, 오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.",
-          "작곡과 컴퓨터공학을 함께 공부한 배경을 바탕으로, 현재는 이미지·오디오 생성 모델과 디퓨전 샘플링을 연구하고 있습니다. 모두의연구소에서 생성 모델 연구 랩을 운영하며 오디오 처리와 생성 모델에 관한 강의도 진행해 왔습니다."
+          "현재 SteAI에서 이미지·오디오 생성 모델과 디퓨전 샘플링을 연구하는 독립 연구자입니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "이전에는 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환을 연구·개발했습니다. 가우디오랩의 GSEP·GTS·FOLLE, 비브스튜디오스의 VSpeech, SM Entertainment의 가창 평가와 개인화 TTS 프로젝트에 참여했습니다. 관련 논문으로는 GSEP, HCLAS-X, KimchiSpeech가 있습니다.",
+          "음성 생성, 타겟 음성 추출, 오디오 신호 처리에 관한 특허에 공동 발명자로 참여했으며, 오디오 처리와 생성 모델에 관한 강의도 진행해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "My research and development experience spans source separation, music–lyrics synchronization, speech synthesis and voice conversion. I have worked on GSEP, GTS and FOLLE at GAUDIOLAB, VSpeech at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment.",
-          "My papers include GSEP for source separation, HCLAS-X for lyrics alignment and KimchiSpeech for speech synthesis. I am also a co-inventor on patents concerning speech generation, target voice extraction and audio signal processing.",
-          "With a background in both composition and computer science, I now research generative models for images and audio, including diffusion sampling. I lead a generative models research lab at MODULABS and have taught courses on audio processing and generative modeling."
+          "I am currently an independent researcher at SteAI working on generative models for images and audio, including diffusion sampling. I also lead the logp(x) generative models research lab at MODULABS.",
+          "Previously, my research and development work spanned source separation, music–lyrics synchronization, speech synthesis and voice conversion. I worked on GSEP, GTS and FOLLE at GAUDIOLAB, VSpeech at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment. Related papers include GSEP, HCLAS-X and KimchiSpeech.",
+          "I am a co-inventor on patents concerning speech generation, target voice extraction and audio signal processing. I have also taught courses on audio processing and generative modeling.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -273,7 +309,14 @@
         "research",
         "patents",
         "education",
-        "teaching"
+        "teaching",
+        "community"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -296,14 +339,16 @@
       },
       "paragraphs": {
         "ko": [
-          "웹·Android 애플리케이션과 오디오 DSP 개발을 거쳐 딥러닝 모델 연구로 영역을 넓혀 왔습니다. 업무 시스템, 국악기 모바일 앱, 음악 스트리밍·노래방 앱을 개발했으며, 음악 게임의 오디오 출력 모듈은 Java와 native C/C++로, 가창 평가 모듈은 native C/C++로 개발했습니다.",
-          "이후 가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음원 분리, 음악·가사 동기화, 음성 합성, 화자 변환 모델을 개발했습니다. 서울대학교에서 작곡과 컴퓨터공학을 함께 공부했고, 음악과 소프트웨어를 결합한 WOBBLE·Earoid 프로젝트도 제작했습니다.",
-          "현재 SteAI에서 생성 모델을 연구하며, Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링을 다루고 있습니다. 연구 경험은 모두의연구소 랩 활동과 기업·교육기관 강의를 통해 공유합니다."
+          "현재 SteAI에서 생성 모델을 연구하며, Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링을 다루고 있습니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영합니다.",
+          "가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음원 분리, 음악·가사 동기화, 음성 합성, 화자 변환 모델을 개발했습니다. 그 이전에는 웹·Android 애플리케이션과 오디오 DSP를 개발했습니다.",
+          "업무 시스템, 국악기 모바일 앱, 음악 스트리밍·노래방 앱을 개발한 경험이 있습니다. 음악 게임의 오디오 출력 모듈은 Java와 native C/C++로, 가창 평가 모듈은 native C/C++로 개발했습니다. 이러한 연구·개발 경험은 기업·교육기관 강의를 통해 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 졸업 프로젝트로 인터랙티브 음악 WOBBLE과 청음 훈련 Android 앱 Earoid를 제작했습니다."
         ],
         "en": [
-          "My career has developed from web and Android applications and audio DSP into deep learning research. I have built business systems, mobile applications for Korean traditional instruments, and music streaming and karaoke applications. I used Java and native C/C++ for music-game audio output, and native C/C++ for singing assessment.",
-          "I later developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion at companies including GAUDIOLAB, VIVESTUDIOS and SM Entertainment. I studied composition and computer science at Seoul National University and created the WOBBLE and Earoid graduation projects.",
-          "I now research generative models at SteAI, including diffusion sampling through Dual-Solver, published at ICLR 2026, and RBF-Solver. I share this experience through a MODULABS research lab and courses for companies and educational institutions."
+          "I currently research generative models at SteAI, including diffusion sampling through Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models research lab at MODULABS.",
+          "I developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion at companies including GAUDIOLAB, VIVESTUDIOS and SM Entertainment. Before that, I worked on web and Android applications and audio DSP.",
+          "My development experience includes business systems, mobile applications for Korean traditional instruments, and music streaming and karaoke applications. I used Java and native C/C++ for music-game audio output, and native C/C++ for singing assessment. I have shared this research and development experience through courses for companies and educational institutions.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects were WOBBLE, an interactive music work, and Earoid, an Android ear-training application."
         ]
       },
       "highlights": {
@@ -322,6 +367,12 @@
         "research",
         "teaching",
         "community"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -344,14 +395,16 @@
       },
       "paragraphs": {
         "ko": [
-          "이미지·오디오 생성 모델을 연구하며, ICLR 2026 논문 Dual-Solver를 발표했습니다. RBF-Solver, HCLAS-X, KimchiSpeech, GSEP 등의 연구를 수행했고, 음성 생성·음성 추출·오디오 신호 처리에 관한 특허 3건에 공동 발명자로 참여했습니다.",
-          "2022년 AI 양재 허브 인공지능 오픈소스 경진대회에는 팀원으로 참여해 1위를 기록했습니다. 작곡 분야에서는 동아음악콩쿠르 2위와 음악춘추콩쿠르 1위를 수상했으며, 서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다.",
-          "가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음악·음성 관련 모델을 개발한 경험을 바탕으로 현재 SteAI에서 독립 연구를 이어가고 있습니다. 모두의연구소의 logp(x) 랩 운영과 생성 모델 강의도 병행합니다."
+          "현재 SteAI에서 독립 연구자로 이미지·오디오 생성 모델을 연구합니다. ICLR 2026 논문 Dual-Solver를 발표했고, RBF-Solver를 연구했습니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음악·음성 관련 모델을 개발했습니다. HCLAS-X, KimchiSpeech, GSEP 등의 연구를 수행했고, 음성 생성·음성 추출·오디오 신호 처리에 관한 특허 3건에 공동 발명자로 참여했습니다.",
+          "2022년 AI 양재 허브 인공지능 오픈소스 경진대회에는 팀원으로 참여해 1위를 기록했습니다. 작곡 분야에서는 동아음악콩쿠르 2위와 음악춘추콩쿠르 1위를 수상했으며, 생성 모델 관련 강의도 진행해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I research generative models for images and audio and published Dual-Solver at ICLR 2026. My work also includes RBF-Solver, HCLAS-X, KimchiSpeech and GSEP. I am a co-inventor on three patents concerning speech generation, voice extraction and audio signal processing.",
-          "I was a member of the first-place team in the 2022 AI Yangjae Hub AI Open Source Competition. In composition, I received second prize at the Dong-A Music Competition and first prize at the Music Chunchu Competition. I studied Music Composition with a double major in Computer Science at Seoul National University.",
-          "After developing music and speech models at GAUDIOLAB, VIVESTUDIOS and SM Entertainment, I now pursue independent research at SteAI. I also lead the logp(x) lab at MODULABS and teach generative modeling."
+          "I currently work as an independent researcher at SteAI on generative models for images and audio. My research includes Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS.",
+          "I previously developed music and speech models at GAUDIOLAB, VIVESTUDIOS and SM Entertainment. My work includes HCLAS-X, KimchiSpeech and GSEP, and I am a co-inventor on three patents concerning speech generation, voice extraction and audio signal processing.",
+          "I was a member of the first-place team in the 2022 AI Yangjae Hub AI Open Source Competition. In composition, I received second prize at the Dong-A Music Competition and first prize at the Music Chunchu Competition. I have also taught courses on generative modeling.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -371,6 +424,12 @@
         "education",
         "industry",
         "community"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -393,14 +452,16 @@
       },
       "paragraphs": {
         "ko": [
-          "박수철은 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. Stable Diffusion, TensorFlow 기반 생성 모델, 베이지안 통계, 오디오 처리 등을 기업·교육기관에서 강의해 왔습니다.",
-          "가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환 모델을 개발했습니다. 현재 SteAI에서 독립 연구자로 활동하며, Dual-Solver를 ICLR 2026에 발표했습니다.",
-          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. MODUCON·AIFrenz·AIfactory 발표와 생성 모델 스터디 운영, YouTube 해설을 통해 연구와 개발 경험을 공유하고 있습니다."
+          "박수철은 현재 SteAI에서 독립 연구자로 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. Dual-Solver를 ICLR 2026에 발표했습니다.",
+          "이전에는 가우디오랩, 비브스튜디오스, SM Entertainment 등에서 음원 분리, 음악·가사 동기화, 음성 합성과 화자 변환 모델을 개발했습니다.",
+          "Stable Diffusion, TensorFlow 기반 생성 모델, 베이지안 통계, 오디오 처리 등을 기업·교육기관에서 강의해 왔습니다. MODUCON·AIFrenz·AIfactory 발표와 생성 모델 스터디 운영, YouTube 해설을 통해 연구와 개발 경험을 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "Soochul Park researches generative models for images and audio and leads the logp(x) research lab at MODULABS. He has taught corporate and institutional courses on Stable Diffusion, generative models with TensorFlow, Bayesian statistics and audio processing.",
-          "He has developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion at companies including GAUDIOLAB, VIVESTUDIOS and SM Entertainment. He is now an independent researcher at SteAI and published Dual-Solver at ICLR 2026.",
-          "He studied Music Composition with a double major in Computer Science at Seoul National University. Through talks at MODUCON, AIFrenz and AIfactory, generative modeling study groups and YouTube explanations, he shares his research and development experience."
+          "Soochul Park is currently an independent researcher at SteAI working on generative models for images and audio, and leads the logp(x) research lab at MODULABS. His research includes Dual-Solver, published at ICLR 2026.",
+          "He previously developed models for source separation, music–lyrics synchronization, speech synthesis and voice conversion at companies including GAUDIOLAB, VIVESTUDIOS and SM Entertainment.",
+          "He has taught corporate and institutional courses on Stable Diffusion, generative models with TensorFlow, Bayesian statistics and audio processing. He has also shared his research and development experience through talks at MODUCON, AIFrenz and AIfactory, generative modeling study groups and YouTube explanations.",
+          "He studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -419,6 +480,12 @@
         "industry",
         "research",
         "education"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -436,19 +503,21 @@
         "en": "AI R&D roles in games and content"
       },
       "reason": {
-        "ko": "음악 게임, 노래방 앱, 버츄얼 휴먼 경험을 현재의 생성 모델 연구와 연결합니다. 게임·콘텐츠 조직에 설명하기 좋은 구성입니다.",
-        "en": "Connects your music-game, karaoke and virtual-human experience with current generative modeling research. Well suited to a games or content team."
+        "ko": "현재 생성 모델 연구에 이어 음악·음성 제품 개발과 다양한 제작 경험을 보여 줍니다. 게임·콘텐츠 분야와 연결되는 경력을 파악하기에 적합합니다.",
+        "en": "Connects your current generative modeling research with music and speech product development and creative projects. Useful for understanding your experience relevant to games and content."
       },
       "paragraphs": {
         "ko": [
-          "음악 게임과 노래방 앱, 버츄얼 휴먼 프로젝트에서 오디오·음성 기술을 개발해 왔습니다. 음악 게임의 오디오 출력 모듈, 에브리싱의 가창 평가, 셀러브리티 개인화 TTS를 개발했고, 비브스튜디오스에서는 TTS·voice conversion 통합 모델인 VSpeech를 연구했습니다.",
-          "가우디오랩에서는 GSEP 음원 분리, GTS 음악·가사 동기화, FOLLE 사운드 생성 모델을 다뤘습니다. 서울대학교에서 작곡과 컴퓨터공학을 함께 공부한 배경을 바탕으로, 음악·음성 기능과 생성 모델을 연구·개발해 왔습니다.",
-          "현재는 SteAI에서 이미지·오디오 생성 모델을 연구하며, Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링의 속도와 품질을 다루고 있습니다. 모두의연구소 랩 운영과 강의 활동도 이어가고 있습니다."
+          "현재 SteAI에서 이미지·오디오 생성 모델을 연구하며, Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링의 속도와 품질을 다루고 있습니다. 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "가우디오랩에서는 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델인 VSpeech를 연구했습니다. 그 이전에는 가우디오랩의 GSEP 음원 분리·FOLLE 사운드 생성 모델과 SM Entertainment의 에브리싱 가창 평가·셀러브리티 개인화 TTS를 개발했습니다.",
+          "음악 게임의 오디오 출력 모듈과 음악 스트리밍·노래방 앱을 개발한 경험도 있습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 제작했으며, 강의를 통해 연구와 개발 경험을 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I have developed audio and speech technology for music games, karaoke applications and virtual-human projects. My work includes music-game audio output, singing assessment for EVERYSING, personalized celebrity TTS, and VSpeech, an integrated TTS and voice conversion model at VIVESTUDIOS.",
-          "At GAUDIOLAB, I worked on GSEP for source separation, GTS for music–lyrics synchronization and FOLLE for sound generation. With a background in composition and computer science at Seoul National University, I have developed both music and speech functions and generative models.",
-          "I now research image and audio generation at SteAI, including diffusion sampling speed and quality through Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead a MODULABS research lab and continue teaching."
+          "I currently research image and audio generation at SteAI, including diffusion sampling speed and quality through Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models research lab at MODULABS.",
+          "At GAUDIOLAB, I worked on GTS for music–lyrics synchronization. At VIVESTUDIOS, I worked on VSpeech, an integrated TTS and voice conversion model for virtual humans. Earlier, my work included GSEP for source separation and FOLLE for sound generation at GAUDIOLAB, and singing assessment for EVERYSING and personalized celebrity TTS at SM Entertainment.",
+          "My experience also includes audio output for music games, music streaming and karaoke applications, the interactive music work WOBBLE, and the ear-training application Earoid. I have shared my research and development experience through teaching.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -467,6 +536,12 @@
         "research",
         "community",
         "teaching"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     },
     {
@@ -489,12 +564,16 @@
       },
       "paragraphs": {
         "ko": [
-          "이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. 서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했으며, 가우디오랩·비브스튜디오스·SM Entertainment 등에서 음악·음성 관련 AI 모델을 개발했습니다.",
-          "현재 SteAI에서 디퓨전 샘플링을 연구하며, 대표 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있습니다. 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고, 기업·교육기관 강의와 공개 발표를 통해 경험을 공유합니다."
+          "현재 SteAI에서 이미지·오디오 생성 모델과 디퓨전 샘플링을 연구하는 독립 연구자입니다. 대표 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있으며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영합니다.",
+          "이전에는 가우디오랩·비브스튜디오스·SM Entertainment 등에서 음악·음성 관련 AI 모델을 개발했습니다.",
+          "기업·교육기관 강의와 공개 발표를 통해 연구와 개발 경험을 공유해 왔습니다.",
+          "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다."
         ],
         "en": [
-          "I am an independent researcher working on generative models for images and audio. I studied Music Composition with a double major in Computer Science at Seoul National University and developed music and speech AI models at GAUDIOLAB, VIVESTUDIOS and SM Entertainment.",
-          "I now research diffusion sampling at SteAI, with work including Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS and share my experience through corporate and institutional courses and public talks."
+          "I am currently an independent researcher at SteAI working on image and audio generation and diffusion sampling, including Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS.",
+          "Previously, I developed music and speech AI models at GAUDIOLAB, VIVESTUDIOS and SM Entertainment.",
+          "I have shared my research and development experience through corporate and institutional courses and public talks.",
+          "I studied Music Composition with a double major in Computer Science at Seoul National University."
         ]
       },
       "highlights": {
@@ -513,11 +592,31 @@
         "research",
         "community",
         "teaching"
+      ],
+      "paragraph_order": [
+        "current_work",
+        "previous_roles",
+        "wider_experience",
+        "education"
       ]
     }
   ],
   "original": {
     "ko": "인공지능 기술을 활용한 이미지 및 오디오 생성 연구를 하고 있습니다. 여러 스타트업에서 음악 게임, 어플리케이션, 음성 및 사운드와 관련 딥러닝 모델을 개발해 왔습니다. 모두의연구소에서 생성 모델들의 핵심 원리를 연구하는 랩을 운영하고 있고, 이러한 기술들을 널리 알리기 위한 강의 활동도 이어나가고 있습니다.",
     "en": "I conduct research on generative models for images and audio. I have developed deep learning models related to music games and applications, as well as speech and sound, across multiple startups. I currently work as an independent researcher based on this experience. I also lead a lab at MODULABS that studies core principles of generative models, and I continue to teach courses to help disseminate these techniques."
+  },
+  "narrative_order": {
+    "ko": [
+      "현재 활동",
+      "이전 경력",
+      "다양한 경험",
+      "학력"
+    ],
+    "en": [
+      "Current work",
+      "Previous roles",
+      "Wider experience",
+      "Education"
+    ]
   }
 }
