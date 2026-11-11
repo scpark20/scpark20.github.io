@@ -68,14 +68,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 이미지·오디오 생성 모델을 연구하고 있습니다. Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링의 속도와 품질을 연구하고, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "현재 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)와 RBF-Solver를 통해 디퓨전 샘플링의 속도와 품질을 연구하고, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
           "이전에는 가우디오랩에서 노래방 데이터 제작을 위한 GTS 음악·가사 동기화 모델을 고도화했고, 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델 VSpeech를 연구했습니다. 그에 앞서 가우디오랩의 GSEP 음원 분리·FOLLE 사운드 생성 모델과 SM Entertainment의 에브리싱 가창 평가·셀러브리티 개인화 TTS를 개발했습니다. 음성 생성·추출·오디오 신호 처리에 관한 특허 3건에도 공동 발명자로 참여했습니다.",
           "연구 내용을 함께 이해하고 활용하는 교육·공개 해설 활동도 이어 왔습니다. YouTube 채널 @deep_hitch에서는 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명합니다. 기업의 Stable Diffusion 원리와 응용 강의, 서울특별시교육청과 ETRI의 AI 교육, 멀티캠퍼스의 생성 모델·베이지안 통계 강의, 모두의연구소의 오디오 처리 강의를 진행했으며, AIfactory·AIFrenz·MODUCON에서도 디퓨전과 음악 생성에 관해 발표했습니다.",
           "커뮤니티에서는 Stable Diffusion 3, 음성인식과 음성합성, PRML로 이해하는 베이지안, Deep Generative Models 과정을 운영했습니다. 2022년 AI 양재 허브 인공지능 오픈소스 경진대회에는 팀원으로 참여해 1위를 기록했고, Rubato Lab의 음악 생성 모델 개발과 GTA Lab·ML Lab의 연구·스터디에도 참여했습니다. 이전의 Android 앱·오디오 DSP 개발 경험과 동아음악콩쿠르·음악춘추콩쿠르 작곡 수상 이력도 갖고 있습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 작곡 졸업 작품으로 인터랙티브 음악 WOBBLE을, 컴퓨터공학 졸업 프로젝트로 청음 훈련 Android 앱 Earoid를 제작했습니다."
         ],
         "en": [
-          "I work on generative models for images and audio. My work on Dual-Solver, published at ICLR 2026, and RBF-Solver focuses on diffusion sampling speed and quality. I also lead the logp(x) generative models research lab at MODULABS.",
+          "I am an independent researcher working on generative models for images and audio. My work on Dual-Solver, published at ICLR 2026, and RBF-Solver focuses on diffusion sampling speed and quality. I also lead the logp(x) generative models research lab at MODULABS.",
           "Previously, I refined GTS at GAUDIOLAB for music–lyrics synchronization and karaoke data preparation, and worked on VSpeech, an integrated TTS and voice conversion model for virtual humans, at VIVESTUDIOS. Earlier work included GSEP for source separation and FOLLE for sound generation at GAUDIOLAB, and singing assessment for EVERYSING and personalized celebrity TTS at SM Entertainment. I am also a co-inventor on three patents concerning speech generation, voice extraction and audio signal processing.",
           "I share this research through teaching and public explanations. On my YouTube channel, @deep_hitch, I explain Flow Matching, ELBO, Diffusion and KL-Divergence. I have taught corporate courses on Stable Diffusion, AI programs for the Seoul Metropolitan Office of Education and ETRI, generative modeling and Bayesian statistics at Multicampus, and audio processing at MODULABS. My talks at AIfactory, AIFrenz and MODUCON have covered diffusion and music generation.",
           "In the community, I have facilitated courses on Stable Diffusion 3, speech recognition and synthesis, Bayesian understanding with PRML, and deep generative models. I was a member of the first-place team in the 2022 AI Yangjae Hub AI Open Source Competition, developed music generation models at Rubato Lab, and participated in research and study groups at GTA Lab and ML Lab. My earlier experience includes Android applications and audio DSP, alongside composition awards at the Dong-A and Music Chunchu competitions.",
@@ -149,12 +149,12 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하고 있습니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.",
+          "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.",
           "이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩에서 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서 VSpeech TTS·화자 변환 통합 모델을 연구했습니다. 그 이전에는 가우디오랩에서 음원 분리 모델과 FOLLE 사운드 생성 모델을, SM Entertainment에서 가창 평가와 개인화 TTS를 개발했습니다. 관련 논문으로는 음악·가사 정렬의 HCLAS-X, 음성 합성의 KimchiSpeech, 음원 분리의 GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다."
         ],
         "en": [
-          "I work on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.",
+          "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.",
           "My earlier research spans music and speech. At GAUDIOLAB, I worked on GTS for music–lyrics synchronization, and at VIVESTUDIOS, on VSpeech, an integrated TTS and voice conversion model. Earlier, I developed source separation and FOLLE sound generation models at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X for lyrics alignment, KimchiSpeech for speech synthesis, and GSEP for source separation. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.",
           "I studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
         ]
@@ -220,14 +220,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. 최근 연구는 Dual-Solver(ICLR 2026)와 RBF-Solver를 통한 디퓨전 샘플링입니다.",
+          "현재 독립 연구자로 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. 최근 연구는 Dual-Solver(ICLR 2026)와 RBF-Solver를 통한 디퓨전 샘플링입니다.",
           "산업 현장에서는 음악·음성 서비스에 필요한 모델을 개발해 왔습니다. 가우디오랩에서 GTS의 음악·가사 동기화 정확도를 높이는 작업을 수행했고, 비브스튜디오스에서는 버츄얼 휴먼을 위한 TTS·voice conversion 통합 모델 VSpeech를 연구했습니다. 그 이전에는 가우디오랩의 GSEP·FOLLE, SM Entertainment의 에브리싱 가창 평가와 셀러브리티 개인화 TTS를 개발했습니다.",
           "모델을 설명하고 활용하는 교육 활동도 병행해 왔습니다. 기업에는 Stable Diffusion 원리와 응용을, 서울특별시교육청과 ETRI에서는 AI 교육을, 멀티캠퍼스에서는 TensorFlow 기반 생성 모델과 베이지안 통계를 강의했습니다. YouTube @deep_hitch의 생성 모델 해설과 AIfactory·AIFrenz·MODUCON 발표를 통해서도 연구·개발 내용을 공유했습니다.",
           "커뮤니티에서는 Stable Diffusion 3와 음성인식·음성합성, PRML, Deep Generative Models 과정을 운영하고, Rubato Lab의 음악 생성 모델 개발과 GTA Lab·ML Lab의 공동 학습에 참여했습니다. 2022년 AI 양재 허브 경진대회에서는 팀원으로 참여해 1위를 기록했습니다. 이전에는 음악 스트리밍·노래방 Android 앱, 음악 게임의 오디오 출력 모듈, 국악기 앱과 웹 업무 시스템을 개발했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 졸업 프로젝트로 인터랙티브 음악 WOBBLE과 청음 훈련 Android 앱 Earoid를 제작했습니다."
         ],
         "en": [
-          "I currently research generative models for images and audio and lead the logp(x) research lab at MODULABS. My recent work includes diffusion sampling through Dual-Solver, published at ICLR 2026, and RBF-Solver.",
+          "I currently research generative models for images and audio as an independent researcher and lead the logp(x) research lab at MODULABS. My recent work includes diffusion sampling through Dual-Solver, published at ICLR 2026, and RBF-Solver.",
           "In industry, I have developed models for music and speech products. I worked on improving music–lyrics synchronization in GTS at GAUDIOLAB and on VSpeech, an integrated TTS and voice conversion model for virtual humans, at VIVESTUDIOS. Earlier projects included GSEP and FOLLE at GAUDIOLAB, and singing assessment for EVERYSING and personalized celebrity TTS at SM Entertainment.",
           "I have also taught how these technologies work and are used: Stable Diffusion in corporate training, AI programs for the Seoul Metropolitan Office of Education and ETRI, and TensorFlow-based generative models and Bayesian statistics at Multicampus. I share research and development topics through generative modeling explanations on YouTube, @deep_hitch, and talks at AIfactory, AIFrenz and MODUCON.",
           "In the community, I have facilitated courses on Stable Diffusion 3, speech recognition and synthesis, PRML and deep generative models, developed music generation models at Rubato Lab, and joined collaborative learning at GTA Lab and ML Lab. I was a member of the first-place team in the 2022 AI Yangjae Hub competition. Earlier software work included music streaming and karaoke Android apps, music-game audio output, traditional-instrument apps and web business systems.",
@@ -300,14 +300,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 logp(x) 랩을 운영합니다. Dual-Solver와 RBF-Solver를 통해 디퓨전 샘플링을 연구하고 있습니다.",
+          "현재 이미지·오디오 생성 모델을 연구하는 독립 연구자이며, 모두의연구소에서 logp(x) 랩을 운영합니다. Dual-Solver와 RBF-Solver를 통해 디퓨전 샘플링을 연구하고 있습니다.",
           "음악·음성 분야에서는 가우디오랩의 음악·가사 동기화와 음원 분리, 비브스튜디오스의 버츄얼 휴먼 음성 모델, SM Entertainment의 가창 평가와 개인화 TTS를 개발했습니다. 그에 앞서 음악 게임의 오디오 출력 모듈과 음악 스트리밍·노래방 앱을 개발하며 음악과 소프트웨어를 함께 다뤘습니다.",
           "이 경험은 강의와 공개 발표에서도 소개해 왔습니다. Stable Diffusion, 생성 모델, 베이지안 통계, 오디오 처리를 기업·교육기관에서 강의했고, AIfactory·AIFrenz·MODUCON에서는 디퓨전과 AI 음악·음악 생성 모델을 발표했습니다. YouTube @deep_hitch에서는 Flow Matching, ELBO, Diffusion, KL-Divergence의 원리를 설명합니다.",
           "모두의연구소에서는 Stable Diffusion 3, 음성인식과 음성합성, PRML, Deep Generative Models 과정을 운영했으며, Rubato Lab의 음악 생성 모델 개발과 GTA Lab·ML Lab의 연구·스터디에 참여했습니다. 음악 창작 분야에서는 동아음악콩쿠르 작곡부문 2위와 음악춘추콩쿠르 작곡부문 1위를 수상했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 작곡 졸업 작품은 인터랙티브 음악 WOBBLE, 컴퓨터공학 졸업 프로젝트는 청음 훈련 Android 앱 Earoid입니다."
         ],
         "en": [
-          "I work on generative models for images and audio and lead the logp(x) lab at MODULABS. My current work on Dual-Solver and RBF-Solver concerns diffusion sampling.",
+          "I am an independent researcher working on generative models for images and audio and lead the logp(x) lab at MODULABS. My current work on Dual-Solver and RBF-Solver concerns diffusion sampling.",
           "My music and speech work has included lyrics synchronization and source separation at GAUDIOLAB, virtual-human speech models at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment. Earlier work on music-game audio output and music streaming and karaoke applications brought together music and software development.",
           "I have shared this experience through teaching and public talks. My courses for companies and educational institutions have covered Stable Diffusion, generative models, Bayesian statistics and audio processing, while talks at AIfactory, AIFrenz and MODUCON covered diffusion, AI music and music generation models. On YouTube, @deep_hitch, I explain Flow Matching, ELBO, Diffusion and KL-Divergence.",
           "At MODULABS, I have facilitated courses on Stable Diffusion 3, speech recognition and synthesis, PRML and deep generative models, developed music generation models at Rubato Lab, and joined research and study groups at GTA Lab and ML Lab. In composition, I received second prize at the Dong-A Music Competition and first prize at the Music Chunchu Competition.",
@@ -370,14 +370,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 이미지·오디오 생성 모델과 디퓨전 샘플링을 연구하고 있습니다. Dual-Solver와 RBF-Solver를 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
+          "현재 이미지·오디오 생성 모델과 디퓨전 샘플링을 연구하는 독립 연구자입니다. Dual-Solver와 RBF-Solver를 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다.",
           "오디오·음성 분야에서는 가우디오랩의 GTS 음악·가사 동기화 모델과 비브스튜디오스의 VSpeech TTS·화자 변환 통합 모델을 개발했습니다. 이전에는 가우디오랩의 GSEP 음원 분리·FOLLE 사운드 생성 모델과 SM Entertainment의 가창 평가·개인화 TTS를 다뤘습니다. HCLAS-X, KimchiSpeech, GSEP 논문과 음성 생성·추출·오디오 처리 관련 특허에도 참여했습니다.",
           "강의에서는 Stable Diffusion과 생성 모델, 베이지안 통계, 딥러닝 기반 오디오 처리를 다뤄 왔습니다. YouTube @deep_hitch에서는 Flow Matching, ELBO, Diffusion, KL-Divergence를 해설하고, AIfactory의 디퓨전 발표와 AIFrenz·MODUCON의 AI 음악·음악 생성 발표를 통해서도 관련 내용을 공유했습니다.",
           "커뮤니티 활동으로는 Stable Diffusion 3, 음성인식과 음성합성, PRML, Deep Generative Models 과정 운영이 있습니다. Rubato Lab에서 음악 생성 모델을 개발했고, GTA Lab·ML Lab에서 생성 모델·스타일 전이 연구와 PRML 스터디에 참여했습니다. 그 이전에는 오디오 DSP와 음악 관련 Android 앱을 개발했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 졸업 프로젝트로 제작했습니다."
         ],
         "en": [
-          "I work on generative models for images and audio and diffusion sampling through Dual-Solver and RBF-Solver. I also lead the logp(x) generative models research lab at MODULABS.",
+          "I am an independent researcher working on generative models for images and audio and diffusion sampling through Dual-Solver and RBF-Solver. I also lead the logp(x) generative models research lab at MODULABS.",
           "My audio and speech work has included GTS for music–lyrics synchronization at GAUDIOLAB and VSpeech, an integrated TTS and voice conversion model, at VIVESTUDIOS. Earlier projects included GSEP for source separation and FOLLE for sound generation at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. I contributed to HCLAS-X, KimchiSpeech and GSEP, and am a co-inventor on patents concerning speech generation, voice extraction and audio processing.",
           "I have taught Stable Diffusion, generative modeling, Bayesian statistics and deep learning for audio processing. On YouTube, @deep_hitch, I explain Flow Matching, ELBO, Diffusion and KL-Divergence. I have also shared related work through a diffusion talk at AIfactory and AI music and music generation talks at AIFrenz and MODUCON.",
           "My community work includes facilitating Stable Diffusion 3, speech recognition and synthesis, PRML and deep generative models. I developed music generation models at Rubato Lab and participated in generative modeling and style transfer research and PRML study groups at GTA Lab and ML Lab. Earlier work included audio DSP and music-related Android applications.",
@@ -523,14 +523,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하며, 이미지·오디오 생성 모델을 연구합니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있습니다.",
+          "현재 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하며, 독립 연구자로 이미지·오디오 생성 모델을 연구합니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있습니다.",
           "산업체에서는 가우디오랩의 음악·가사 동기화와 음원 분리, 비브스튜디오스의 TTS·화자 변환, SM Entertainment의 가창 평가와 개인화 TTS를 개발했습니다. HCLAS-X, KimchiSpeech, GSEP 연구와 음성 생성·추출·오디오 신호 처리 관련 특허 3건에도 참여했습니다.",
           "연구 경험은 교육과 공개 해설로도 공유하고 있습니다. YouTube @deep_hitch에서 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명하고, 기업·교육기관에서 Stable Diffusion, 생성 모델, 베이지안 통계와 오디오 처리를 강의했습니다. AIfactory·AIFrenz·MODUCON에서는 디퓨전과 음악 생성에 관한 발표를 했습니다.",
           "커뮤니티에서는 2024년 Stable Diffusion 3 과정을 운영했고, 2022년 AI 양재 허브 인공지능 오픈소스 경진대회에 팀원으로 참여해 1위를 기록했습니다. 그 이전에는 음성인식과 음성합성, PRML로 이해하는 베이지안, Deep Generative Models 과정을 운영하고, Rubato Lab의 음악 생성 모델 개발, GTA Lab의 생성 모델·스타일 전이 연구, ML Lab의 PRML 스터디에 참여했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 졸업 프로젝트로 제작했으며, 재학 중 동아음악콩쿠르 작곡부문 2위, 입학 전 음악춘추콩쿠르 작곡부문 1위를 수상했습니다."
         ],
         "en": [
-          "I currently lead the logp(x) generative models research lab at MODULABS and work on image and audio generation. My recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver.",
+          "I currently lead the logp(x) generative models research lab at MODULABS and work as an independent researcher on image and audio generation. My recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver.",
           "In industry, I developed music–lyrics synchronization and source separation models at GAUDIOLAB, TTS and voice conversion at VIVESTUDIOS, and singing assessment and personalized TTS at SM Entertainment. I contributed to HCLAS-X, KimchiSpeech and GSEP and am a co-inventor on three patents concerning speech generation, voice extraction and audio signal processing.",
           "I also share research through education and public explanations. On YouTube, @deep_hitch, I explain Flow Matching, ELBO, Diffusion and KL-Divergence. I have taught corporate and institutional courses on Stable Diffusion, generative modeling, Bayesian statistics and audio processing, and spoken about diffusion and music generation at AIfactory, AIFrenz and MODUCON.",
           "In the community, I facilitated Stable Diffusion 3 in 2024 and was a member of the first-place team in the 2022 AI Yangjae Hub AI Open Source Competition. Earlier, I facilitated speech recognition and synthesis, Bayesian understanding with PRML, and deep generative models; developed music generation models at Rubato Lab; and participated in generative modeling and style transfer research at GTA Lab and the PRML study group at ML Lab.",
@@ -600,14 +600,14 @@
       },
       "paragraphs": {
         "ko": [
-          "박수철은 현재 이미지·오디오 생성 모델을 연구하며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있습니다.",
+          "박수철은 현재 이미지·오디오 생성 모델을 연구하는 독립 연구자이며, 모두의연구소에서 생성 모델 연구 랩 logp(x)를 운영하고 있습니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있습니다.",
           "이전에는 가우디오랩의 음악·가사 동기화 모델, 비브스튜디오스의 버츄얼 휴먼 TTS·화자 변환 모델을 개발했습니다. 그에 앞서 가우디오랩의 음원 분리·사운드 생성 모델과 SM Entertainment의 가창 평가·개인화 TTS를 개발했고, Android 앱과 오디오 DSP 개발도 경험했습니다.",
           "강의에서는 기업 대상 Stable Diffusion 원리와 응용, 서울특별시교육청의 AI 전문가 과정, ETRI의 IT 개발자 AI 역량 강화 교육을 진행했습니다. 그 이전부터 멀티캠퍼스에서 TensorFlow 기반 생성 모델과 베이지안 통계를, 모두의연구소 Deep Learning College에서 오디오 처리를 강의했습니다.",
           "강의실 밖에서는 YouTube @deep_hitch의 Flow Matching·ELBO·Diffusion·KL-Divergence 해설과 AIfactory·AIFrenz·MODUCON 발표로 연구 내용을 공유했습니다. 모두의연구소 풀잎스쿨에서 Stable Diffusion 3, 음성인식과 음성합성, PRML, Deep Generative Models 과정을 운영했고, Rubato Lab·GTA Lab·ML Lab에서 음악 생성 모델 개발과 연구·스터디에 참여했습니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 작곡 졸업 작품으로 인터랙티브 음악 WOBBLE을, 컴퓨터공학 졸업 프로젝트로 청음 훈련 Android 앱 Earoid를 제작했습니다."
         ],
         "en": [
-          "Soochul Park works on generative models for images and audio and leads the logp(x) research lab at MODULABS. His recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver.",
+          "Soochul Park is an independent researcher working on generative models for images and audio and leads the logp(x) research lab at MODULABS. His recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver.",
           "Previously, he developed music–lyrics synchronization models at GAUDIOLAB and virtual-human TTS and voice conversion models at VIVESTUDIOS. Earlier work included source separation and sound generation at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment, preceded by Android application and audio DSP development.",
           "His teaching has included corporate training on the principles and applications of Stable Diffusion, the AI Specialist Program for the Seoul Metropolitan Office of Education, and AI competency training for IT developers at ETRI. Earlier courses included generative models with TensorFlow and Bayesian statistics at Multicampus, and audio processing at MODULABS Deep Learning College.",
           "Beyond formal courses, he shares Flow Matching, ELBO, Diffusion and KL-Divergence explanations on YouTube, @deep_hitch, and has given talks at AIfactory, AIFrenz and MODUCON. At MODULABS Puliip School, he facilitated Stable Diffusion 3, speech recognition and synthesis, PRML and deep generative models. He also developed music generation models at Rubato Lab and participated in research and study groups at GTA Lab and ML Lab.",
@@ -749,14 +749,14 @@
       },
       "paragraphs": {
         "ko": [
-          "현재 이미지·오디오 생성 모델을 연구하며, YouTube @deep_hitch에서 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명하고 있습니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있고, 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영합니다.",
+          "현재 이미지·오디오 생성 모델을 연구하는 독립 연구자이며, YouTube @deep_hitch에서 Flow Matching, ELBO, Diffusion, KL-Divergence를 설명하고 있습니다. 최근 연구로 Dual-Solver(ICLR 2026)와 RBF-Solver가 있고, 모두의연구소에서는 생성 모델 연구 랩 logp(x)를 운영합니다.",
           "이전에는 가우디오랩의 음악·가사 동기화 모델과 비브스튜디오스의 TTS·화자 변환 통합 모델을 연구했습니다. 그에 앞서 가우디오랩의 음원 분리·사운드 생성 모델, SM Entertainment의 가창 평가·개인화 TTS를 개발했으며, Android 앱과 오디오 DSP 개발 경험도 갖고 있습니다.",
           "기술을 설명하는 활동은 YouTube와 함께 강의·발표로도 이어 왔습니다. 기업의 Stable Diffusion 강의, 서울특별시교육청과 ETRI의 AI 교육, 멀티캠퍼스의 생성 모델·베이지안 통계 강의, 모두의연구소의 오디오 처리 강의를 진행했습니다. AIfactory·AIFrenz·MODUCON에서는 디퓨전과 AI 음악, 음악 생성 모델에 관해 발표했습니다.",
           "커뮤니티에서는 Stable Diffusion 3, 음성인식과 음성합성, PRML, Deep Generative Models 과정을 운영했고, Rubato Lab의 음악 생성 모델 개발과 GTA Lab·ML Lab의 연구·스터디에 참여했습니다. 연구, 구현, 강의, 공동 학습과 공개 해설이 모두 경력의 한 부분입니다.",
           "서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작했습니다."
         ],
         "en": [
-          "I work on image and audio generation, and explain Flow Matching, ELBO, Diffusion and KL-Divergence on YouTube, @deep_hitch. My recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS.",
+          "I am an independent researcher working on image and audio generation, and explain Flow Matching, ELBO, Diffusion and KL-Divergence on YouTube, @deep_hitch. My recent research includes Dual-Solver, published at ICLR 2026, and RBF-Solver. I also lead the logp(x) generative models lab at MODULABS.",
           "Previously, I worked on music–lyrics synchronization at GAUDIOLAB and integrated TTS and voice conversion at VIVESTUDIOS. Earlier projects included source separation and sound generation at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. My background also includes Android applications and audio DSP.",
           "My explanations of these technologies extend to courses and talks. I have taught corporate Stable Diffusion courses, AI programs for the Seoul Metropolitan Office of Education and ETRI, generative modeling and Bayesian statistics at Multicampus, and audio processing at MODULABS. My talks at AIfactory, AIFrenz and MODUCON have covered diffusion, AI music and music generation models.",
           "In the community, I have facilitated Stable Diffusion 3, speech recognition and synthesis, PRML and deep generative models, developed music generation models at Rubato Lab, and participated in research and study groups at GTA Lab and ML Lab. Research, implementation, teaching, collaborative learning and public explanations are all parts of my work.",
@@ -800,8 +800,8 @@
     }
   ],
   "original": {
-    "ko": "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하고 있습니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.\n\n이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩에서 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서 VSpeech TTS·화자 변환 통합 모델을 연구했습니다. 그 이전에는 가우디오랩에서 음원 분리 모델과 FOLLE 사운드 생성 모델을, SM Entertainment에서 가창 평가와 개인화 TTS를 개발했습니다. 관련 논문으로는 음악·가사 정렬의 HCLAS-X, 음성 합성의 KimchiSpeech, 음원 분리의 GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.\n\n서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다.",
-    "en": "I work on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.\n\nMy earlier research spans music and speech. At GAUDIOLAB, I worked on GTS for music–lyrics synchronization, and at VIVESTUDIOS, on VSpeech, an integrated TTS and voice conversion model. Earlier, I developed source separation and FOLLE sound generation models at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X for lyrics alignment, KimchiSpeech for speech synthesis, and GSEP for source separation. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.\n\nI studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
+    "ko": "현재 디퓨전 모델의 샘플링 방법과 이미지·오디오 생성 모델을 연구하는 독립 연구자입니다. Dual-Solver(ICLR 2026)에서는 예측 방식의 매개변수화를 통한 ODE 솔버의 일반화를, RBF-Solver에서는 radial basis function 보간을 이용한 다단계 샘플링을 연구했습니다. 모두의연구소의 logp(x) 랩에서는 생성 모델의 핵심 원리를 함께 연구하고 있습니다.\n\n이전 연구는 음악·음성 분야에 걸쳐 있습니다. 가우디오랩에서 GTS 음악·가사 동기화 모델을, 비브스튜디오스에서 VSpeech TTS·화자 변환 통합 모델을 연구했습니다. 그 이전에는 가우디오랩에서 음원 분리 모델과 FOLLE 사운드 생성 모델을, SM Entertainment에서 가창 평가와 개인화 TTS를 개발했습니다. 관련 논문으로는 음악·가사 정렬의 HCLAS-X, 음성 합성의 KimchiSpeech, 음원 분리의 GSEP가 있으며, 음성 생성·추출·오디오 신호 처리에 관한 특허에도 공동 발명자로 참여했습니다.\n\n서울대학교에서 작곡을 전공하고 컴퓨터공학을 복수전공했습니다. 인터랙티브 음악 WOBBLE과 청음 훈련 앱 Earoid를 각각의 졸업 프로젝트로 제작하며 음악과 소프트웨어를 함께 다뤘습니다.",
+    "en": "I am an independent researcher working on diffusion sampling and generative models for images and audio. In Dual-Solver, published at ICLR 2026, I studied a generalized ODE solver through parameterization of prediction types. In RBF-Solver, I explored multistep sampling with radial basis function interpolation. I also lead logp(x) at MODULABS, where we study the core principles of generative models.\n\nMy earlier research spans music and speech. At GAUDIOLAB, I worked on GTS for music–lyrics synchronization, and at VIVESTUDIOS, on VSpeech, an integrated TTS and voice conversion model. Earlier, I developed source separation and FOLLE sound generation models at GAUDIOLAB, and singing assessment and personalized TTS at SM Entertainment. Related papers include HCLAS-X for lyrics alignment, KimchiSpeech for speech synthesis, and GSEP for source separation. I am also a co-inventor on patents concerning speech generation, voice extraction and audio signal processing.\n\nI studied Music Composition with a double major in Computer Science at Seoul National University. My graduation projects, the interactive music work WOBBLE and the ear-training application Earoid, brought together music and software."
   },
   "narrative_order": {
     "ko": [
