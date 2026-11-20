@@ -66,5 +66,6 @@
   window.addEventListener('scroll', updateNavigation, {passive:true});
   window.addEventListener('resize', updateNavigation);
   updateNavigation();
-  setLanguage('en', false);
+  const preferredLanguage = navigator.language || navigator.languages?.[0] || 'en';
+  setLanguage(/^ko(?:-|$)/i.test(preferredLanguage) ? 'ko' : 'en', false);
 })();
